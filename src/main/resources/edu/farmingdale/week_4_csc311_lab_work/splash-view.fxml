@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.farmingdale.week_4_csc311_lab_work.SplashController">
+   <children>
+      <ImageView fx:id="splashLogo" fitHeight="250.0" fitWidth="275.0" layoutX="175.0" layoutY="75.0" onMouseClicked="#loadLogin" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/splash_logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
