@@ -19,7 +19,7 @@
       <Label fx:id="username" layoutX="20.0" layoutY="50.0" text="Username:" />
       <Label fx:id="password" layoutX="20.0" layoutY="140.0" text="Password:" />
       <TextField layoutX="90.0" layoutY="136.0" prefHeight="25.0" prefWidth="188.0" />
-      <Button fx:id="register" layoutX="185.0" layoutY="220.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="105.0" style="-fx-background-color: #157055; -fx-border-color: #000000;" text="REGISTER" textFill="WHITE">
+      <Button fx:id="register" layoutX="185.0" layoutY="220.0" mnemonicParsing="false" prefHeight="44.0" onAction="#loadRegister" prefWidth="105.0" style="-fx-background-color: #157055; -fx-border-color: #000000;" text="REGISTER" textFill="WHITE">
          <font>
             <Font name="Franklin Gothic Book" size="15.0" />
          </font>

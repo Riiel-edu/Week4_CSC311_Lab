@@ -15,10 +15,19 @@ public class SplashController {
     @FXML
     protected void loadLogin() throws IOException {
         Stage stage = new Stage();
-        System.out.println("Clicked");
         FXMLLoader fxmlLoader = new FXMLLoader(FileApplication.class.getResource("login-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 300, 300);
         stage.setTitle("Week 4 CSC311: Login Screen");
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    @FXML
+    protected void loadRegister() throws IOException {
+        Stage stage = new Stage();
+        FXMLLoader fxmlLoader = new FXMLLoader(FileApplication.class.getResource("register-view.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 300, 300);
+        stage.setTitle("Week 4 CSC311: Register Screen");
         stage.setScene(scene);
         stage.show();
     }
